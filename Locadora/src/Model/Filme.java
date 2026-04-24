@@ -36,12 +36,17 @@ public class Filme {
         this.valor = valor;
     }
 
-    public void exibirDetalhes(){
+    public  void exibirDetalhes(){
 
+        System.out.println(getTitulo() + " "+ getGenero() + " "+ getValor());
 
     }
 
-    public void aplicarDesconto{
+    public void aplicarDesconto(){
+
+        double desc = valor -10;
+
+        System.out.println("Valor com desconto é" + desc);
 
 
     }

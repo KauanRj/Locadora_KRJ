@@ -27,10 +27,11 @@ public class Cliente {
 
     public String getContato(){
 
+        return getTelefone();
     }
 
     public void apresentar(){
 
-
+        System.out.println(getNome());
     }
 }

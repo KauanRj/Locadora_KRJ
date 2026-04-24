@@ -36,12 +36,18 @@ public class Aluguel {
         this.dias = dias;
     }
 
-    public Double calcularTotal(){
+    public void calcularTotal(){
+        double valor = dias * 1.50;
 
+        if (dias > 20){
+            valor = valor + 10;
+        }
+        System.out.println("O total é: " + valor);
 
     }
 
     public String getResumo(){
 
+        return " ";
     }
 }
