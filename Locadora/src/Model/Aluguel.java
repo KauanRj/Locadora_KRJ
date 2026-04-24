@@ -42,6 +42,6 @@ public class Aluguel {
     }
 
     public String getResumo(){
-        return c
+
     }
 }
