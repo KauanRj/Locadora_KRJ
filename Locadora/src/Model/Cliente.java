@@ -31,7 +31,8 @@ public class Cliente {
     }
 
     public void apresentar(){
+        System.out.println("nome:" + getNome());
+        System.out.println("Contato:" + getTelefone());
 
-        System.out.println(getNome());
     }
 }

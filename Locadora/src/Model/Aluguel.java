@@ -42,12 +42,14 @@ public class Aluguel {
         if (dias > 20){
             valor = valor + 10;
         }
-        System.out.println("O total é: " + valor);
+        System.out.println("Preço do dias é: " + valor);
+        //valor = valor + filme.getValor();
+        //System.out.println("Preço com o filme é: " + valor);
 
     }
 
     public String getResumo(){
+       return " ";
 
-        return " ";
     }
 }

@@ -9,20 +9,13 @@ public class Main {
     Cliente cliente = new Cliente("kauan","359948549");
     cliente.apresentar();
 
-
     Filme filme = new Filme("guerra",30.0,"Ação");
     filme.exibirDetalhes();
-    filme.aplicarDesconto();
+    filme.aplicarDesconto(valor);
 
 
     Aluguel aluguel = new Aluguel(cliente,filme,10);
-    aluguel.calcularTotal();
-
-
-
-
-
-
+    aluguel.calcularTotal(valor);
 
 
     }
